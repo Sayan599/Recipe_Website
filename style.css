@@ -67,14 +67,14 @@ hr {
     opacity: 30%;
 }
 
-@media (width < 375px) {
+@media (width < 720px) {
     body {
         margin: 0px;
         padding: 0px;
     }
 
     .container {
-        margin: 0px;
+        margin: auto;
         padding: 0px;
         width: 370px;
 
