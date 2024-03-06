@@ -1,0 +1,94 @@
+h1 {
+    font-family: "Young Serif";
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.young {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+    /* height: 20px; */
+    width: 600px;
+    padding: 35px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 10px;
+}
+
+.picture {
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.sub-topic {
+    font-size: 14px;
+}
+
+.important {
+    background-color: rgba(220, 20, 60, 0.079);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.important h4 {
+    color: rgb(150, 3, 148);
+    font-weight: 900;
+}
+
+.items {
+    color: darkred;
+}
+
+.items-points {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 30px;
+    opacity: 30%;
+}
+
+@media (width < 375px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        margin: 0px;
+        padding: 0px;
+        width: 370px;
+
+    }
+
+    .picture {
+        height: 250px;
+        width: 370px;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .padding {
+        padding: 40px;
+    }
+}
